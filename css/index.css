@@ -14,6 +14,16 @@ header li {
     padding: 0 10px;
 }
 
+header .weather {
+    position: relative;
+    background-color: #fff;
+    width: 230px;
+    height: 60px;
+    display: none;
+    border: 1px solid #eee;
+    z-index: 1;
+}
+
 header .left li {
     float: left;
 }
