@@ -1,0 +1,268 @@
+header {
+    height: 34px;
+    background: rgb(34, 34, 34);
+}
+
+header li span {
+    margin-right: 7px;
+}
+
+header li {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+header .weather {
+    position: relative;
+    background-color: #fff;
+    width: 230px;
+    height: 60px;
+    display: none;
+    border: 1px solid #eee;
+    z-index: 1;
+}
+
+header .left li {
+    float: left;
+}
+
+header .right li {
+    float: right;
+}
+
+.tbody {
+    width: 1170px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 16px;
+    /* background-color: pink; */
+}
+
+.tbody .subnav {
+    position: relative;
+    float: left;
+    width: 110px;
+    height: 600px;
+}
+
+.tbody .subnav a {
+    width: 108px;
+    height: 27px;
+}
+
+.tbody .subnav a img {
+    width: 100%;
+}
+
+.tbody .subnav ul {
+    margin-top: 17px;
+}
+
+.tbody .subnav ul li a,
+.tbody .subnav #moreclass span a {
+    display: block;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    transition: all 0.2s;
+}
+
+.tbody .subnav ul li:first-child a {
+    background-color: #ed4040;
+    color: #fff;
+    margin: 2px 0;
+}
+
+.tbody .subnav ul li a:hover,
+.tbody .subnav #moreclass span a:hover {
+    background-color: #ed4040;
+    color: #fff;
+}
+
+.tbody .subnav #moreclass {
+    display: none;
+    position: absolute;
+    right: -230px;
+    bottom: 33px;
+    width: 230px;
+    height: 211px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 5px 3px;
+}
+
+.tbody .subnav #moreclass span a {
+    display: inline-block;
+}
+
+.tbody .tright {
+    float: right;
+    width: 340px;
+    height: 1200px;
+    overflow: hidden;
+}
+
+.tbody .tright div {
+    background-color: #f5f6f7;
+}
+
+.tbody .tright .search input {
+    float: left;
+    width: 260.6px;
+    height: 44px;
+    background-color: #f5f6f7;
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+    transition: all .7s;
+    border: transparent;
+}
+
+.tbody .tright .search button {
+    float: left;
+    width: 78.4px;
+    height: 43.4px;
+    background-color: #208eda;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+}
+
+.tbody .tright .search input:hover,
+.tbody .tright .search input:focus {
+    border: 1px solid #208eda;
+}
+
+.tbody .tright .login {
+    width: 100%;
+    height: 240px;
+    margin-top: 60px;
+    padding: 25px;
+}
+
+.tbody .tright .login .in {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 22px;
+}
+
+.tbody .tright .login .in p {
+    text-align: center;
+    color: #666;
+}
+
+.tbody .tright .login .in button {
+    width: 100%;
+    height: 43px;
+    background-color: #ed4040;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.tbody .tright .login .in div {
+    background-color: #fff;
+}
+
+.tbody .tright .hot,
+.tbody .tright .more,
+.tbody .tright .copyright {
+    width: 100%;
+    border-top: 3px solid #ed4040;
+    margin-top: 15px;
+    padding: 15px;
+    color: #000;
+}
+
+.tbody .tright .hot .news {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+}
+
+.tbody .tright .hot .news .newpic {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.tbody .tright .hot .news .newpic img {
+    width: 60px;
+    height: 60px;
+    transition: all 0.5s;
+}
+
+.tbody .tright .hot .news .newpic img:hover {
+    transform: scale(1.05);
+}
+
+.tbody .tright .hot .news p {
+    padding: 10px;
+    color: #000;
+    font-size: 14px;
+}
+
+.tbody .tright .hot .news p:hover {
+    color: #406599;
+}
+
+.tbody .tright .more li {
+    display: inline-block;
+    margin: 7px;
+}
+
+.tbody .tright .more li a {
+    font-size: 14px;
+    color: #777;
+}
+
+.center {
+    /* background-color: purple; */
+    width: 658px;
+    height: 1200px;
+    margin-left: 140px;
+}
+
+.center .write .wTitles {
+    width: 100%;
+    height: 47px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+}
+
+.center .write .wTitles ul li {
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 0 10px;
+}
+
+.borderRed {
+    border-bottom: 2px solid #ed4040;
+}
+
+.report {
+    position: fixed;
+    right: 130px;
+    bottom: 50px;
+    width: 40px;
+    padding: 5px 8px;
+    background-color: #f85959;
+}
+
+.report img {
+    width: 22px;
+    margin: 0 auto;
+}
